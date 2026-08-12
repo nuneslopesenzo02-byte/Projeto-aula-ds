@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto City</title>
     <!-- chamando css externo -->
      <link rel="stylesheet" href="./src/css/estilo.css">
 </head>
 <body>
     <header>
-        <h1>PROJETO CITY</h1>
+        <!-- Adicionada a classe logo para funcionar com seu CSS -->
+        <h1 class="logo">PROJETO <span>CITY</span></h1>
+        
+        <!-- Botão do menu hambúrguer isolado -->
         <div class="menu-hamburguer" id="menu-icone">
             <span></span>
             <span></span>
             <span></span>
+        </div>
+
+        <!-- Menu de navegação ajustado para fora da div do ícone -->
         <nav id="nav-menu">
             <ul>
                 <li><a href="#">home</a></li>
@@ -21,22 +27,17 @@
                 <li><a href="#">contato</a></li>
             </ul>
         </nav>
-        </div>
     </header>
     
     <main class="container">
-    
+        <!-- O conteúdo principal do seu site entra aqui -->
     </main>
+
     <footer>
-        <p>&copy;- 2026 Direitos reservados</p>
+        <p>&copy; 2026 - Direitos reservados</p>
     </footer>
 
-
-
-
-
-
-    <script src="./src/js/script.js">
-    </script>
+    <!-- Seu arquivo de script -->
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
